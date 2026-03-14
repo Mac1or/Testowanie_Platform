@@ -3,3 +3,5 @@ def add(a, b):
 
 def subtract(a, b):
     return a - b
+
+# Sprawdzam czy zadziała zamknięcie issue #1
