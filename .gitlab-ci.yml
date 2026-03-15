@@ -1,3 +1,6 @@
+include:
+  - template: Jobs/Dependency-Scanning.gitlab-ci.yml
+
 test:
   image: python:3.12
   script:
