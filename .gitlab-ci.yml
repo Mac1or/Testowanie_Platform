@@ -1,6 +1,10 @@
 include:
   - template: Jobs/Dependency-Scanning.gitlab-ci.yml
 
+gemnasium-python-dependency_scanning:
+  rules:
+    - when: always
+
 test:
   image: python:3.12
   script:
