@@ -5,3 +5,4 @@ pipelines:
         script:
           - pip install pytest
           - pytest
+          - echo "Secret value is $TEST_SECRET"
